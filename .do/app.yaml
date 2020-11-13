@@ -3,7 +3,7 @@ services:
 - environment_slug: node-js
   github:
     branch: main
-    repo: digitalocean/sample-expressjs
+    repo: bojand/sample-expressjs
   name: sample-expressjs
   build_command: npm install pm2 -g && npm install
   run_command: npm start
