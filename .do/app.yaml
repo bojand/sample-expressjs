@@ -1,4 +1,4 @@
-name: sample-expressjs80
+name: sample-expressjs802
 services:
 - environment_slug: node-js
   github:
