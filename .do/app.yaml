@@ -1,9 +1,10 @@
-name: sample-expressjs-pm2
+name: sample-expressjs80
 services:
 - environment_slug: node-js
   github:
     branch: main
     repo: bojand/sample-expressjs
+  http_port: 80
   name: sample-expressjs
-  build_command: npm install pm2 -g && npm install
+  build_command: npm install
   run_command: npm start
