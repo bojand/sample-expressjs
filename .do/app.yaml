@@ -1,4 +1,4 @@
-name: sample-expressjs
+name: sample-expressjs-pm2
 services:
 - environment_slug: node-js
   github:
