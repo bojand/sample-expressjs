@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT || 80
 const timeout = 10000
 
-const id = Math.floor((Math.random() * (1 - 100 + 1)) + minimum)
+const id = Math.floor((Math.random() * (1 - 100 + 1)) + 1)
 
 app.get('/', (req, res) => {
 	console.log(id + ': got request')
